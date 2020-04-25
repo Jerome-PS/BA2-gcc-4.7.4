@@ -3,6 +3,7 @@ JN516x Beyond Architecture (OpenRisc-inspired) micro controller compiler reposit
 
 ```
 patch < 100-jn51xx-multilib.patch
+patch < 101-support-recent-texinfo.patch
 patch < cfns.h.patch
 ```
 
@@ -13,3 +14,5 @@ cd build
 make
 make install
 ```
+
+-- Hmm, better use instructions found here: https://github.com/alephsecurity/BA2-toolchain
